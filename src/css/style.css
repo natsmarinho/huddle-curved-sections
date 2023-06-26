@@ -11,3 +11,19 @@
     --cinza: #808E9A;
 
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.btn {
+    background: transparent;
+    border-radius: 15px;
+    border: 1px solid var(--rosa);
+    width: 8em;
+    padding-block: .5em;
+    box-shadow: 0px 0px 5px 0px rgba(255, 82, 193, 0.22);
+    color: var(--rosa);
+}
