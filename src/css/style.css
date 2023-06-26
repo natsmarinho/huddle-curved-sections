@@ -18,7 +18,7 @@ header {
     padding: 1em;
 }
 
-.btn {
+.btn-cadastro {
     background: transparent;
     border-radius: 15px;
     border: 1px solid var(--rosa);
@@ -26,4 +26,36 @@ header {
     padding-block: .5em;
     box-shadow: 0px 0px 5px 0px rgba(255, 82, 193, 0.22);
     color: var(--rosa);
+    font-family: var(--open);
+}
+
+.apresentacao {
+    text-align: center;
+}
+
+.apresentacao-titulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 7rem 2.5em 1.5em 2.5em;
+}
+
+.titulo {
+    color: var(--verde-escuro);
+    font-family: var(--poppins); 
+}
+
+.texto {
+    font-family: var(--open);
+    color: var(--verde-escuro);
+    padding: 0 2.5em 3em 2.5em;
+    font-size: 0.875rem;
+}
+
+.botao {
+    background: var(--rosa);
+    color: var(--branco);
+    font-family: var(--open);
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
 }
