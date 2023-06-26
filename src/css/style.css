@@ -1,0 +1,13 @@
+@import url("../css/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family');
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --open: 'Open Sans', sans-serif;
+
+    --branco: #fff;
+    --rosa: #FF52C1;
+    --verde-escuro: #00252E;
+    --cinza: #808E9A;
+
+}
