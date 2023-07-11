@@ -31,6 +31,9 @@ header {
 
 .apresentacao {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .apresentacao-titulo {
@@ -67,6 +70,7 @@ header {
     padding: 1em;
     border-radius: 20px;
     border: none;
+    width: 25%;
 }
 
 .tela-interativa {
@@ -120,6 +124,11 @@ header {
     margin-top: 12rem;
 }
 
+.third {
+    position: relative;
+    
+}
+
 .container-description h1 {
     margin-top: 4em;
     margin-bottom: 2em;
@@ -143,11 +152,12 @@ header {
 .rodape-background {
     position: absolute;
     width: 100%;
+    height: 100%;
 }
 
 .content-footer {
     position: relative;
-    top: 6rem;
+    top: 2rem;
     padding-inline: 1.75rem;
 }
 
@@ -166,13 +176,18 @@ header {
     line-height: 1.5rem;
     font-family: var(--open);
     font-size: 0.875rem;
-    padding-block: 1rem 2rem;
+    padding-block: 3rem 2rem;
 }
 
 .secao-subs {
     display: flex;
     flex-direction: column;
-    
+}
+
+.subscription {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 #subs {
@@ -188,27 +203,18 @@ header {
     font-weight: 700;
     line-height: 1.5rem;
     background: var(--rosa);
-    padding: 1rem 2rem;
+    padding: .6rem 1.5rem;
     text-align: center;
     align-self: end;
-    margin-top: 1rem;
     border-radius: 0.3125rem;
 }
 
 .info-rodape {
-    padding-top: 6.5rem;
+    padding-top: 5rem;
 }
 
 .logo-branca {
     position: absolute;
-}
-
-.info-rodape p {
-    padding-top: 4rem;
-}
-
-.contato {
-    padding-top: 2.5rem;
 }
 
 .contato-items {
@@ -228,4 +234,58 @@ header {
 .social-list {
     display: flex;
     padding-top: 3rem;
+}
+
+.background-desktop, .rodape-background-desktop {
+    display: none;
+}
+
+.smartphone {
+    display: block;
+}
+
+/*---------------------------------TABLET------------------*/
+
+@media screen and (min-width: 768px) {
+    header {
+        padding: 3em;
+    }
+
+    .smartphone {
+        display: none;
+    }
+
+    .background-desktop, .rodape-background-desktop {
+        display: block;
+        width: 100%;
+        position: absolute;
+    }
+
+    .projects {
+        margin-top: 1rem;
+    }
+
+    .secao-subs {
+        margin-top: 15rem;
+        padding-right: 10rem;
+    }
+
+    .info-rodape {
+        margin-top: 10rem;
+    }
+    .subscription {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #subs {
+        padding-inline: 5em;
+    }
+
+    .content-footer {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20em;
+    }
+
 }
