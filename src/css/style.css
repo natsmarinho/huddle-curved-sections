@@ -251,6 +251,39 @@ header {
         padding: 3em;
     }
 
+    .btn-cadastro:hover {
+        border: 1px solid #FF8ED7;
+        color: #FF8ED7;;
+    }
+
+    .titulo-principal {
+        font-size: 2.5rem;
+    }
+
+    .apresentacao p {
+        font-size: 1.25rem;
+        padding-inline: 20rem;
+    }
+
+    .botao {
+        font-size: 1.25rem;
+        border-radius: 30px;
+    }
+
+    .info {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container-info h1 {
+        font-size: 4rem;
+    }
+
+
+    .container-info p {
+        font-size: 1rem;
+    }    
+    
     .smartphone {
         display: none;
     }
