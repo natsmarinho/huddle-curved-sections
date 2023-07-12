@@ -270,6 +270,11 @@ header {
         border-radius: 30px;
     }
 
+    .botao:hover {
+        box-shadow: drop-shadow(0px 6px 13px rgba(0, 37, 46, 0.22));
+        background-color: #FF8ED7;
+    }
+
     .info {
         flex-direction: row;
         justify-content: space-around;
@@ -313,6 +318,14 @@ header {
 
     #subs {
         padding-inline: 5em;
+    }
+
+    .btn-subs:hover {
+        background: #FF8ED7;
+    }
+
+   path:hover, rect:hover {
+        fill: #00C7FA;
     }
 
     .content-footer {
